@@ -26,3 +26,21 @@ body {
   font-size: larger;
   font-weight: 500;
 }
+
+/* Header */
+
+#header-title h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 3rem;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1200px) {
+  #header-title h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2rem;
+  }
+}
