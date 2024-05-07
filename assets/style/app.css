@@ -31,8 +31,23 @@ body {
 
 #header-title h1 {
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 3rem;
+}
+
+/* Main section 2 */
+
+.blurb h2 {
+  color: #354259;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.blurb p {
+  color: #3f4e4f;
+  line-height: 2;
+  font-weight: 300;
+  font-size: 1.125rem;
 }
 
 /* Responsive */
