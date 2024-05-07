@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
+html,
+body div {
+  width: 100%;
+}
+
 body {
   background-color: #c2ded1;
   font-family: "Lato", sans-serif;
@@ -53,6 +58,16 @@ body {
 .content {
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+footer a {
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #3f4e4f;
 }
 
 /* Responsive */
