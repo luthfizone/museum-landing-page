@@ -68,11 +68,18 @@ body {
 footer a {
   font-family: "Lato", sans-serif;
   text-decoration: none;
-  color: white;
+  color: #f0e68c;
 }
 
+footer {
+  font-size: 1.125rem;
+}
 footer a:hover {
-  color: #3f4e4f;
+  color: #ffd700;
+}
+
+footer a:active {
+  color: #ffd700;
 }
 
 /* Responsive */
