@@ -32,6 +32,11 @@ body {
   font-weight: 500;
 }
 
+.navbar.scrolled {
+  background-color: #c2ded1;
+  transition: background 500ms;
+}
+
 /* Header */
 
 #header-title h1 {
